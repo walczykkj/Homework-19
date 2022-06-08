@@ -6,7 +6,8 @@ console.log("Your index.js file is loaded correctly!");
     function() {
         (".project1").attr("src","./images/Tutor-Match-mockup.png");
     });
-
+    
+      
     $(".project2").hover(function() {
         $("#proj-img2").attr("src","./images/locale-mockup2.png");
         }, 
@@ -27,6 +28,9 @@ console.log("Your index.js file is loaded correctly!");
                 function() {
                     (".project3").attr("src","./images/coming-soon.png");
                 });
+
+
+                  
 
 // scroll to top functionality
 const scrollUp = document.querySelector("#scroll-up");
